@@ -90,7 +90,7 @@ MonoBehaviour:
   active: 1
   color:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_Value: {r: 0.11320752, g: 0.106265545, b: 0.106265545, a: 1}
   center:
     m_OverrideState: 1
     m_Value: {x: 0.5, y: 0.5}
@@ -116,6 +116,9 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
   threshold:
     m_OverrideState: 0
     m_Value: 2
@@ -124,19 +127,22 @@ MonoBehaviour:
     m_Value: 0.125
   scatter:
     m_OverrideState: 1
-    m_Value: 0.35
+    m_Value: 0.189
   clamp:
     m_OverrideState: 0
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.85490197, b: 0.5882353, a: 1}
+    m_Value: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
-  skipIterations:
+  downscale:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
+  maxIterations:
+    m_OverrideState: 0
+    m_Value: 6
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -157,7 +163,6 @@ MonoBehaviour:
   m_Name: PostProcess Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7787568825093967825}
   - {fileID: -15523540618795478}
   - {fileID: -4177283215972238575}
   - {fileID: 6214023916217657511}
@@ -184,7 +189,7 @@ MonoBehaviour:
     m_Value: -0.6
   contrast:
     m_OverrideState: 1
-    m_Value: 7
+    m_Value: -44.5
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -471,19 +476,3 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
---- !u!114 &7787568825093967825
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
-  m_Name: Tonemapping
-  m_EditorClassIdentifier: 
-  active: 1
-  mode:
-    m_OverrideState: 1
-    m_Value: 2
