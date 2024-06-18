@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 2
+  m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 3
     name: Very Low
@@ -121,14 +121,14 @@ QualitySettings:
     skinWeights: 2
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
-    anisotropicTextures: 1
+    anisotropicTextures: 0
     antiAliasing: 0
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
     useLegacyDetailDistribution: 1
-    vSyncCount: 1
+    vSyncCount: 0
     realtimeGICPUUsage: 25
     lodBias: 0.7
     maximumLODLevel: 0
@@ -144,14 +144,14 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: d64c5a1eb3ae21d45b5d761b7088724a,
+    customRenderPipeline: {fileID: 11400000, guid: 18e524793aef76f49b63b576de77233f,
       type: 2}
-    terrainQualityOverrides: 0
+    terrainQualityOverrides: 22
     terrainPixelError: 1
-    terrainDetailDensityScale: 1
-    terrainBasemapDistance: 1000
+    terrainDetailDensityScale: 0.85
+    terrainBasemapDistance: 750
     terrainDetailDistance: 80
-    terrainTreeDistance: 5000
+    terrainTreeDistance: 1000
     terrainBillboardStart: 50
     terrainFadeLength: 5
     terrainMaxTrees: 50
