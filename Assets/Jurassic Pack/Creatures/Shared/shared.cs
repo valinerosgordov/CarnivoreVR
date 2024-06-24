@@ -681,7 +681,7 @@ bool FindPlayerFood()
 // ARTIFICIAL INTELLIGENCE // (require "JP script extension" asset)
 //
 //***********************************************************************************************************************************************************************************************************
- 	public void AICore(int idle1=0, int idle2=0, int idle3=0, int idle4=0, int eat=0, int drink=0, int sleep=0)
+	public void AICore(int idle1=0, int idle2=0, int idle3=0, int idle4=0, int eat=0, int drink=0, int sleep=0)
   { manager.message=2; AI=false; }
 }
 
