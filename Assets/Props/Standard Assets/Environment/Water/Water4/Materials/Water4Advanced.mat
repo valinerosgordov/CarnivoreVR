@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water4Advanced
-  m_Shader: {fileID: 4800000, guid: 475c4a4e617a8401b84ca7b32c7cc460, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8aaff0751054e4a9cb4642d01eaf5be9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -29,6 +29,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Caustics:
         m_Texture: {fileID: 2800000, guid: eb9e91ee4c264b942a46baeec92ca0a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControl:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTex:
@@ -170,6 +174,7 @@ Material:
     - _WaveOffset: {r: 1, g: 1, b: -0.01, a: -0.01}
     - _WaveScale4: {r: 0.1, g: 0.1, b: 0.01, a: 0.01}
     - _WorldLightDir: {r: -0.030375138, g: -0.20139083, b: -0.97903997, a: 0}
+    - _horizonColor: {r: 0.17199996, g: 0.46299994, b: 0.43499997, a: 0}
   m_BuildTextureStacks: []
 --- !u!1002 &2100001
 EditorExtensionImpl:
