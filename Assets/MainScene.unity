@@ -52637,6 +52637,22 @@ PrefabInstance:
       propertyPath: m_IncludeLayers.m_Bits
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 20526184, guid: 202d57994ff2d504c80a7dd050a5b7ff, type: 3}
+      propertyPath: m_Size
+      value: 43.615395
+      objectReference: {fileID: 0}
+    - target: {fileID: 20526184, guid: 202d57994ff2d504c80a7dd050a5b7ff, type: 3}
+      propertyPath: m_LocalReferencePoint.x
+      value: -0.00000333786
+      objectReference: {fileID: 0}
+    - target: {fileID: 20526184, guid: 202d57994ff2d504c80a7dd050a5b7ff, type: 3}
+      propertyPath: m_LocalReferencePoint.y
+      value: 7.64363
+      objectReference: {fileID: 0}
+    - target: {fileID: 20526184, guid: 202d57994ff2d504c80a7dd050a5b7ff, type: 3}
+      propertyPath: m_LocalReferencePoint.z
+      value: -5.5514107
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
